@@ -96,13 +96,13 @@ $(document).ready(function () {
       alert("PLEASE TYPE YOUR MESSAGE")
     }
 
-    if ($("input#COMBINE1").val() && $("input#COMBINE0").val()) {
+    if ($("input#COMBINE1").val() && $("input#COMBINE0").val() && $("textarea#RADA").val()) {
 
       alert(name + " WE HAVE RECEIVED YOUR MESSAGE" + "  THANKYOU FOR REACHING OUT TO US");
 
     }
     else {
-      alert("PLEASE ENTER BOTH YOUR NAME AND EMAIL!");
+      alert("PLEASE ENTER BOTH YOUR NAME, MESSAGE AND EMAIL!");
     }
   });
 
